@@ -1,0 +1,59 @@
+.banner{
+    height: 80vh;
+    position: relative;
+}
+.banner-image{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.829656862745098) 0%, rgba(0,0,0,0.48792016806722693) 100%, rgba(0,0,0,1) 100%);
+    position: absolute;
+}
+.banner-image img{
+    height: 100%;
+    width: 100%;
+}
+.banner-text{
+    position: absolute;
+    top: 30%;
+    left: 3%;
+    color: white;
+}
+.banner-text h1{
+    width: 38%;
+    font-family: "Roboto Mono", monospace;
+}
+.banner-text h3{
+    color: #f5487f;
+    font-family: "Roboto Mono", monospace;
+}
+.banner-text p{
+    width: 38%;
+    text-align: justify;
+    line-height: 25px;
+    font-family: "Lato", sans-serif;
+}
+.banner-button{
+    padding-top: 35px;
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 18px;
+    font-family: "Lato", sans-serif;
+}
+.watch-btn{
+    background-color: #f5487f;
+    color: white;
+}
+.detail-btn{
+    color:  #2A2C31;
+    margin-left: 15px;
+}
+
